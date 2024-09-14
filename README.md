@@ -1,7 +1,3 @@
-Got it! Here's a README tailored for a Node.js project with Redis as a local dependency.
-
----
-
 # Node.js Rate Limiting Approaches
 
 This project demonstrates the implementation of various rate limiting strategies using **Node.js** and **Redis**:
