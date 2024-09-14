@@ -1,0 +1,23 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local-fixed-window": "node src/local-fixed-window.js",
+    "fixed-window": "node src/fixed-window.js",
+    "sliding-window": "node src/sliding-window.js",
+    "token-bucket": "node src/token-bucket.js",
+    "leaky-bucket": "node src/leaky-bucket.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@fastify/express": "^3.0.0",
+    "fastify": "^4.28.1",
+    "ioredis": "^5.4.1"
+  }
+}
